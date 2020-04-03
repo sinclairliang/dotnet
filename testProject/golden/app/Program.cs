@@ -7,7 +7,8 @@ namespace app
     {
         static void Main(string[] args)
         {
-            WriteLine($"The answer is {new Thing().Get(19, 23)}");
+            WriteLine("Hello World");
+            WriteLine($"The answer is {new Thing().Get(17, 23)}");
         }
     }
 }

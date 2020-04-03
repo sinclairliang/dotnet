@@ -82,7 +82,7 @@
       "outputPath": "/Users/sinclairliang/Personal/dotnet/testProject/golden/app/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/sinclairliang/.nuget/NuGet/NuGet.Config"
+        "/Users/sinclairliang/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

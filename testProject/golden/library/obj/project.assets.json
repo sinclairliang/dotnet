@@ -233,7 +233,7 @@
       "outputPath": "/Users/sinclairliang/Personal/dotnet/testProject/golden/library/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/sinclairliang/.nuget/NuGet/NuGet.Config"
+        "/Users/sinclairliang/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
