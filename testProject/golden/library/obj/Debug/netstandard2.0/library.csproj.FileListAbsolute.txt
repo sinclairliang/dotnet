@@ -1,0 +1,8 @@
+/Users/sinclairliang/Personal/dotnet/testProject/golden/library/bin/Debug/netstandard2.0/library.deps.json
+/Users/sinclairliang/Personal/dotnet/testProject/golden/library/bin/Debug/netstandard2.0/library.dll
+/Users/sinclairliang/Personal/dotnet/testProject/golden/library/bin/Debug/netstandard2.0/library.pdb
+/Users/sinclairliang/Personal/dotnet/testProject/golden/library/obj/Debug/netstandard2.0/library.csprojAssemblyReference.cache
+/Users/sinclairliang/Personal/dotnet/testProject/golden/library/obj/Debug/netstandard2.0/library.AssemblyInfoInputs.cache
+/Users/sinclairliang/Personal/dotnet/testProject/golden/library/obj/Debug/netstandard2.0/library.AssemblyInfo.cs
+/Users/sinclairliang/Personal/dotnet/testProject/golden/library/obj/Debug/netstandard2.0/library.dll
+/Users/sinclairliang/Personal/dotnet/testProject/golden/library/obj/Debug/netstandard2.0/library.pdb
