@@ -17,4 +17,8 @@ public class SolutionCLass {
             Console.WriteLine();
         }
     }
+
+    static void Main(string[] args) {
+        Console.WriteLine("Hello World!");
+    }
 }
