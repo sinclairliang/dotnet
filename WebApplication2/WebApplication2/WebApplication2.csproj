@@ -6,4 +6,7 @@
 
 
 
+  <ItemGroup>
+    <Content Remove="Views\Home\About.cshtml" />
+  </ItemGroup>
 </Project>
