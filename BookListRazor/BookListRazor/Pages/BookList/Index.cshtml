@@ -19,11 +19,12 @@
                 <table class="table table-striped border">
                     <tr class="table-secondary">
                         <th>
-                            <lable asp-for="Books.FirstOrDefault().Name"></lable>
+                            <label asp-for="Books.FirstOrDefault().Name"></label>
                         </th>
 
                         <th>
-                            @Html.DisplayNameFor(m => m.Books.FirstOrDefault().Author)
+                            @*@Html.DisplayNameFor(m => m.Books.FirstOrDefault().Author)*@
+                            <label asp-for="Books.FirstOrDefault().Author"></label>
                         </th>
 
                         <th>
@@ -40,6 +41,10 @@
 
                             <td>
                                 @Html.DisplayFor(m => item.Author)
+                            </td>
+                            <td>
+                                <button class="btn btn-danger btn-small">Delete</button>
+                                <a class="btn btn-success btn-small">Edit</a>
                             </td>
                         </tr>
                     }
