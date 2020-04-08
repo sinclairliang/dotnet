@@ -1,0 +1,1 @@
+﻿INSERT INTO `Book` (`Id`,`Name`,`Author`) VALUES (111,'The Sandman','ETA Hoffmann');
