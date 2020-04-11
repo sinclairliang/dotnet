@@ -21,6 +21,7 @@ namespace BookListRazor.Pages.BookList
         public IEnumerable<Book> Books { get; set; }
 
         public async Task OnGetAsync()
+            // C# method
         {
             Books = await _db.Book.ToListAsync();
         }
