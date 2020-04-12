@@ -23,8 +23,5 @@ namespace BookListRazor.Pages.BookList
         public void OnGet()
         {
         }
-
-
-        
     }
 }
