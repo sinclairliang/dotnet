@@ -4,7 +4,7 @@
     "anonymousAuthentication": true, 
     "iisExpress": {
       "applicationUrl": "http://localhost:45372",
-      "sslPort": 44313
+      "sslPort": 12567
     }
   },
   "profiles": {
@@ -18,7 +18,7 @@
     "BookListMVC": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "applicationUrl": "https://localhost:12345;http://localhost:12346",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
