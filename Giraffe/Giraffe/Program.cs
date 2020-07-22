@@ -8,7 +8,7 @@ namespace Giraffe
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Calculator()
         {
             Console.WriteLine("Hello C#");
             int mode;
@@ -46,6 +46,19 @@ namespace Giraffe
                 Console.WriteLine("Not Supported");
                 return;
             }
+        }
+
+        static void Main(string[] args)
+        {
+            List<int> luckyNumbers = new List<int>();
+            luckyNumbers.Add(1);
+            luckyNumbers.Add(40);
+
+            foreach (int item in luckyNumbers)
+            {
+                Console.WriteLine(item);
+            }
+            //Calculator();
         }
     }
 }
