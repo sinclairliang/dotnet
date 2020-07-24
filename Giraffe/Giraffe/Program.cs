@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,15 +51,19 @@ namespace Giraffe
 
         static void Main(string[] args)
         {
-            List<int> luckyNumbers = new List<int>();
-            luckyNumbers.Add(1);
-            luckyNumbers.Add(40);
+            //List<int> luckyNumbers = new List<int>();
+            //luckyNumbers.Add(1);
+            //luckyNumbers.Add(40);
 
-            foreach (int item in luckyNumbers)
-            {
-                Console.WriteLine(item);
-            }
+            //foreach (int item in luckyNumbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
             //Calculator();
+
+            Hashtable table = new Hashtable();
+            table.Add(2, "Freedom");
+            Console.WriteLine(table[2]);
         }
     }
 }
