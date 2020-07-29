@@ -49,6 +49,12 @@ namespace Giraffe
             }
         }
 
+        static void SayHello()
+        {
+            Console.WriteLine("Hello there");
+        }
+
+
         static void Main(string[] args)
         {
             //List<int> luckyNumbers = new List<int>();
@@ -64,6 +70,7 @@ namespace Giraffe
             Hashtable table = new Hashtable();
             table.Add(2, "Freedom");
             Console.WriteLine(table[2]);
+            SayHello();
         }
     }
 }
