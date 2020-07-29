@@ -72,10 +72,9 @@ namespace Giraffe
             Console.WriteLine(table[2]);
             SayHello();
 
-            Book pictureofDorian = new Book();
-            pictureofDorian.title = "The Picture of Dorian Grey";
-            pictureofDorian.pages = 345;
-            Console.WriteLine(pictureofDorian);
+            Book pictureofDorian = new Book("The Picture of Dorian Grey", "Wilde", -7);
+            pictureofDorian.Pages = 99;
+            Console.WriteLine(pictureofDorian.Pages);
         }
     }
 }

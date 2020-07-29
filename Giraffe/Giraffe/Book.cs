@@ -5,7 +5,7 @@ namespace Giraffe
     {
         public string title;
         public string author;
-        public int pages;
+        private  int pages;
 
         public Book()
         {
@@ -16,9 +16,24 @@ namespace Giraffe
         {
             title = aTitle;
             author = anAuthor;
-            pages = aNumber;
+            Pages = aNumber;
         }
 
+        public int Pages
+        {
+            get { return pages; }
+            set
+            {
+                if(value < 0)
+                {
+                    pages = 0;
+                }
+                else
+                {
+                    pages = value;
+                }
+            }
+        }
 
         public override string ToString()
         {
