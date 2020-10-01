@@ -13,6 +13,7 @@ namespace API
     {
         public static void Main(string[] args)
         {
+            // Entry point of the program.
             CreateHostBuilder(args).Build().Run();
         }
 
