@@ -14,6 +14,7 @@ namespace API
         public static void Main(string[] args)
         {
             // Entry point of the program.
+            // Continuing in a new computer.
             CreateHostBuilder(args).Build().Run();
         }
 
