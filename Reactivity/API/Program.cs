@@ -13,6 +13,7 @@ using Persistence;
 
 namespace API
 {
+    // Section 3
     public class Program
     {
         public static void Main(string[] args)
