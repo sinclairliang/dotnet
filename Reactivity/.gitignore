@@ -5,8 +5,14 @@ logs
 **/*.backup.*
 **/*.back.*
 
-node_modules
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 bower_components
+
+# production
+/build
 
 # Visual Studio Code
 .vscode
